@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Suyan — muammoingizni ayting, yechimini topamiz.">
+  <title>Suyan — Muammoingizni ayting</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #111827;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 18px;
+      background: linear-gradient(135deg, #ffffff, #eaf1f8);
+    }
+
+    .box {
+      width: 100%;
+      max-width: 620px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 78px;
+      height: 78px;
+      margin: 0 auto 18px;
+      border-radius: 50%;
+      background: #111827;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 42px;
+      font-weight: 800;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin: 0 0 8px;
+      letter-spacing: 3px;
+    }
+
+    .slogan {
+      font-size: 18px;
+      color: #4b5563;
+      margin-bottom: 35px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+
+    .service {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 18px;
+      padding: 22px 12px;
+      font-size: 17px;
+      font-weight: 700;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .icon {
+      display: block;
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+
+    .order {
+      display: block;
+      width: 100%;
+      padding: 18px;
+      border-radius: 16px;
+      background: #111827;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+
+    .telegram {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      border-radius: 16px;
+      background: #229ed9;
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .contacts {
+      margin-top: 28px;
+      color: #6b7280;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 34px;
+      }
+
+      .services {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="box">
+
+      <div class="logo">S</div>
+
+      <h1>SUYAN</h1>
+
+      <div class="slogan">
+        Muammoingizni ayting — yechimini topamiz.
+      </div>
+
+      <div class="services">
+
+        <div class="service">
+          <span class="icon">🔧</span>
+          Santexnika
+        </div>
+
+        <div class="service">
+          <span class="icon">⚡</span>
+          Elektr
+        </div>
+
+        <div class="service">
+          <span class="icon">🏠</span>
+          Uy xizmatlari
+        </div>
+
+        <div class="service">
+          <span class="icon">🛠️</span>
+          Boshqa xizmatlar
+        </div>
+
+      </div>
+
+      <a
+        class="order"
+        href="https://t.me/suyan_uz"
+        target="_blank"
+      >
+        📦 BUYURTMA BERISH
+      </a>
+
+      <a
+        class="telegram"
+        href="https://t.me/suyan_uz"
+        target="_blank"
+      >
+        ✈️ Telegram orqali bog‘lanish
+      </a>
+
+      <div class="contacts">
+        📞 +998 77 713 28 05<br>
+        📞 +998 93 832 55 50<br>
+        📞 +998 70 052 81 67
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
